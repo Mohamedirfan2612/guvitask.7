@@ -1,0 +1,105 @@
+/* Basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d9e2d9;
+    color: #2c2b2b;
+}
+
+/* Header */
+.github-header {
+    background-color: #2b3137;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    position: relative;
+}
+
+.fa-github {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 30px; /* Adjust size of the logo */
+}
+
+h1 {
+    font-size: 2rem; /* Adjust as needed */
+    margin: 0;
+   position: relative;
+   left: 650px;
+   bottom: 40px;
+}
+
+/* Main layout */
+.container {
+    display: flex;
+    padding: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Sidebar */
+.profile-sidebar {
+    flex: 1;
+    background-color: #2c2b2b;
+    border-radius: 10px;
+    height: 400px; /* Adjust based on content */
+    margin-right: 20px;
+}
+
+/* Content Area */
+.content-area {
+    flex: 3;
+}
+
+.search-bar {
+    background-color: #2c2b2b;
+    padding: 1px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    width: 70%;
+    position: relative;
+    left: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.search-bar input {
+    background-color: #2c2b2b;
+    width: 100%;
+    padding: 10px;
+    border: transparent;
+    border-radius: 5px;
+}
+
+.repo-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.repo-item {
+    background-color: #2c2b2b;
+    width: 25%;
+    height: 100px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.repo-item:hover {
+    background-color: #2c2b2b;
+    cursor: pointer;
+}
+
+/* Wide section */
+.wide-section {
+    background-color: #2c2b2b;
+    height: 120px;
+    border-radius: 10px;
+}
